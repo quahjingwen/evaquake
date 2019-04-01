@@ -1,0 +1,70 @@
+{
+  "name": "modulestats",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@vuefire/vuefire": "0.0.9",
+    "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^2.0.0-rc.16",
+    "chart.js": "^2.8.0",
+    "chartkick": "^3.0.2",
+    "firebase": "^5.9.2",
+    "hchs-vue-charts": "^1.2.8",
+    "highcharts": "^7.0.3",
+    "icons": "^1.0.0",
+    "jquery": "^3.3.1",
+    "material": "^0.3.2",
+    "popper.js": "^1.14.7",
+    "vue": "^2.6.6",
+    "vue-chartjs": "^3.4.2",
+    "vue-chartkick": "^0.5.0",
+    "vue-charts": "^0.2.1",
+    "vue-resource": "^1.5.1",
+    "vue-router": "^3.0.2",
+    "vuefire": "^1.4.5",
+    "vuesax": "^3.8.59",
+    "vuetify": "^1.5.8"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.5.0",
+    "@vue/cli-plugin-eslint": "^3.5.0",
+    "@vue/cli-service": "^3.5.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "vue-cli-plugin-vuetify": "^0.5.0",
+    "vue-template-compiler": "^2.5.21",
+    "vuetify-loader": "^1.0.5"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
