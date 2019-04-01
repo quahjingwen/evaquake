@@ -3,7 +3,7 @@
         <v-app>
             <v-container fluid ma-0 pa-0>
                 <v-layout row>
-                <v-flex xs5>
+                <v-flex xs6>
                     <v-card v-if="show_1">
                             <v-toolbar extended flat height="25px" dark color = 'green'>
                                 <v-toolbar-title class="white--text">><b><h3>Pros:</h3></b></v-toolbar-title>
@@ -42,7 +42,7 @@
                     </v-card>
                 
                 </v-flex>
-                <v-flex xs5>
+                <v-flex xs6>
                     <v-card v-if="show_1">
                         <v-toolbar extended flat height="25px" dark color = 'green'>
                             <v-toolbar-title class="white--text">><b><h3>Pros:</h3></b></v-toolbar-title>
